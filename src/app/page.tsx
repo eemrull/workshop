@@ -17,7 +17,7 @@ export default function Page() {
       <Header />
       {/* <Login /> */}
 
-      <h1>Count: {count}</h1>
+      <h1>Value: {count}</h1>
       <button onClick={() => setCount(count + 1)}>BUTTON</button>
 
       <Footer />
